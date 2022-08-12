@@ -1,9 +1,9 @@
 name: Build LaTeX document
 on:
-  schedule:
-    - cron: "00 16 * * *"
-  # push:
-  #   branches: ["main"]
+  # schedule:
+  #   - cron: "00 16 * * *"
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
@@ -20,12 +20,12 @@ jobs:
             make
       - uses: actions/upload-artifact@v3
         with:
-          name: upload-artifact
+          name: mainpdf
           # path: /home/runner/work/brief-tiddlywiki5-introduction/brief-tiddlywiki5-introduction/dist/main.pdf
           path: dist/main.pdf
       - uses: actions/download-artifact@v3
         with:
-          name: my-artifact
+          name: mainpdf
           path: dist/main.pdf
 
       - name: Display structure of downloaded files
