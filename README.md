@@ -12,6 +12,9 @@
 
 </div>
 
+[![Build LaTeX document](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/dist.yml/badge.svg)](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/dist.yml)
+[![Github Pages](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/pages.yml/badge.svg)](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/pages.yml)
+
 ## What's that
 
 > 🎊 Tiddlywiki5 tutorials with latex
