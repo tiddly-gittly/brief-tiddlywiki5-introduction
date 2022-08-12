@@ -14,11 +14,12 @@
 
 ## What's that
 
-> 🎊 ...
+> 🎊 Tiddlywiki5 tutorials with latex
 
 ## Motivation
 
-> Coming
+> For better view Tiddlywiki5, use latex to reorganize tiddlywiki document(not
+> official), just some tiddlywiki tips and tutorials
 
 ## Note
 
