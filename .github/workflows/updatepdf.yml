@@ -1,9 +1,9 @@
 name: Build LaTeX document
 on:
-  # schedule:
-  #   - cron: "00 16 * * *"
-  push:
-    branches: ["main"]
+  schedule:
+    - cron: "00 16 * * *"
+  # push:
+  #   branches: ["main"]
   workflow_dispatch:
 
 jobs:
