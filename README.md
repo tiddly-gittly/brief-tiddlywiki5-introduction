@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="" width=128/>
+<img src="img/logo.png" width=128/>
 
 </div>
 
@@ -49,6 +49,6 @@
 
 ## Preview
 
-- Click to preview [mainpdf](dist/main.pdf)
+- Click to preview [main.pdf](dist/main.pdf)
 
 ## Videos
