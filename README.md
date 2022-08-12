@@ -35,13 +35,19 @@
 
 ```bash
 
-├── src
+.
+├── _config.yml
+├── dist
+├── docs
 ├── img
-├── public
+├── main.tex
+├── makefile
 ├── README.md
-├── index.tex
-└── test # test
+├── renovate.json
+├── src
+└── test
 
+5 directories, 5 files
 ```
 
 ## Links
