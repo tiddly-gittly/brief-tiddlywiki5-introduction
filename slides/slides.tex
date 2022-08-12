@@ -1,0 +1,66 @@
+% slides.tex
+\documentclass{beamer}
+
+\title{Slides in Neovim With Latex}
+\author{oeyoews}
+\date{2022/08/09}
+
+% use okular present mode
+\usetheme{Madrid}
+% dove, rose, lily, dolphin, beaver
+\usecolortheme{dolphin}
+
+\begin{document}
+
+% Head
+\begin{frame}[plain]
+	% dmeo
+	\titlepage
+\end{frame}
+
+% TOC
+\begin{frame}{TOC}
+	% \tableofcontents[hideallsubsections]
+	\tableofcontents
+\end{frame}
+
+\begin{frame}{Block}
+
+	\begin{alertblock}{Alert}
+
+	\end{alertblock}
+
+	\begin{exampleblock}{example}
+
+		THis is a alerblock block
+
+	\end{exampleblock}
+
+	\section{First}%
+	\label{sec:First}
+	one
+
+	\subsection{fir.fir}%
+	\label{sub:fir.fir}
+	one.one
+
+	THis is a alerblock block
+
+\end{frame}
+
+% single frame
+
+\begin{frame}{Item}
+
+	\begin{itemize}
+		\item  one item
+		\item  one item
+	\end{itemize}
+
+\end{frame}
+
+\begin{frame}{End}
+	Ending!
+\end{frame}
+
+\end{document}

@@ -1,0 +1,71 @@
+%!TEX program = lualatex
+% README.tex
+\documentclass[UTF8, 12pt]{article}
+
+\usepackage{showlabels}
+\usepackage{ctex}
+\usepackage{docmute}
+
+\usepackage{ulem}
+\usepackage{verbatim}
+\usepackage{emoji}
+\usepackage{tikz}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{cite}
+\usepackage{multicol}
+\usepackage{blindtext}
+
+\title{Learn \LaTeX{} \emoji{rocket}}
+\author{oeyoews}
+\date{2022-08-11T13:16:20}
+
+\listfiles
+
+\begin{document}
+
+% head
+\include{src/head}
+
+\maketitle
+\tableofcontents
+\listoffigures
+
+% import files
+\include{src/abstract.tex}
+\include{src/cn.tex}
+\include{src/instroduce}
+\include{src/color}
+\include{src/href}
+\include{src/emoji}
+\include{src/reference}
+\include{src/style}
+\include{src/newpage}
+\include{src/list}
+\include{src/tikz}
+\include{src/images}
+\include{src/paragraph}
+\include{src/table}
+\include{src/twocolumn}
+\include{src/test}
+\include{src/formula}
+\include{src/algorithm}
+\include{src/comment}
+\include{src/tips}
+\include{src/todo}
+\include{src/hyper}
+\include{src/compile}
+
+% ending
+\include{src/ending}
+
+% special put reference site
+\bibliographystyle{plain}
+\bibliography{bib/all}
+
+\end{document}
