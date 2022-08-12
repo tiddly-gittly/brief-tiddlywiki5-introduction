@@ -26,7 +26,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: mainpdf
-          path: dist/main.pdf
+          path: dist/learn-tiddlywiki5-tutorials.pdf
 
       - name: Display structure of downloaded files
         run: ls -R
