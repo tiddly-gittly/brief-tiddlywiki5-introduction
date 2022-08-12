@@ -1,18 +1,20 @@
 SRC = main
-DIR = dist
+OUTPUTDIR = public
 VIEWER = zathura
 ENGINE = -lualatex
 EXEC = latexmk
-TARGET = $(SRC).tex
-OUTPUT = $(DIR)/$(SRC).pdf
+TARGETTEXFILE = $(SRC).tex
+OUTPUTPDFFILE = $(OUTPUTDIR)/$(SRC).pdf
 
 update:
 	# /dev/null ??
-	$(EXEC) $(ENGINE) $(TARGET)
+	$(EXEC) $(ENGINE) $(TARGETTEXFILE)
+	-rm -rf dist && mkdir dist
+	-cp $(OUTPUTPDFFILE) dist/learn-tiddlywiki5.pdf
 
 view:
-	$(VIEWER) $(OUTPUT)
+	$(VIEWER) $(OUTPUTPDFFILE)
 
 .PHONY: clean
 clean:
-	-rm -rf $(DIR)/*
+	-rm -rf $(OUTPUTDIR)
