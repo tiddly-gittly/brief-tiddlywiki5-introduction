@@ -18,6 +18,10 @@ jobs:
           run: |
             apk add make
             make
+      - uses: actions/upload-artifact@v3
+        with:
+          name: upload-artifact
+          path: /home/runner/work/brief-tiddlywiki5-introduction/brief-tiddlywiki5-introduction/dist/main.pdf
       # - name: Release
       #   uses: softprops/action-gh-release@v1
       #   if: startsWith(github.ref, 'refs/tags/')
