@@ -20,6 +20,10 @@
 
 > Coming
 
+## Note
+
+- use **lualatex** to support emoji, not xelatex or others
+
 ## Showcases
 
 <!-- | <img src="img/00.png" align="bottom" width=256/> | <img src="img/03.png" align="bottom" width=256/> | <img src="img/02.png" align="bottom" width=256/> | -->

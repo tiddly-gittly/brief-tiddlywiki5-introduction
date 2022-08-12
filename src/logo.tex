@@ -1,8 +1,9 @@
 %!TEX program = lualatex
-% head.tex
+% logo.tex
 \documentclass[UTF8]{article}
 
 \usepackage{emoji}
+\usepackage{graphicx}
 % \usepackage{ctex}
 
 % Title left align
@@ -13,7 +14,11 @@
 \begin{document}
 \maketitle
 
-\section{logo \emoji{rocket}}%
-\label{sec:emoji}
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/logo.png}
+	% \caption{img/logo.png}
+	\label{fig:img-logo-png}
+\end{figure}
 
 \end{document}
