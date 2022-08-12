@@ -4,7 +4,7 @@
 
 </div>
 
-<h1 align="center">Tiddlywiki Introduction</h1>
+<h1 align="center">Tiddlywiki Tutorials</h1>
 
 <div align="center">
 
@@ -18,7 +18,7 @@
 
 ## Motivation
 
-> For better view Tiddlywiki5, use latex to reorganize tiddlywiki document(not
+> For better view Tiddlywiki5, use latex to reorganize tiddlywiki tutorials(not
 > official), just some tiddlywiki tips and tutorials
 
 ## Note
@@ -57,6 +57,9 @@
 ## Tutorials
 
 ## TODO
+
+- how to push generated man.pdf push repo dir, or use gh-pages actions?? related
+  ci workflow
 
 ## Preview
 
