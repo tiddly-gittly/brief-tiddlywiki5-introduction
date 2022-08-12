@@ -2,6 +2,7 @@
 % end.tex
 \documentclass[UTF8]{article}
 
+\usepackage{graphicx}
 \usepackage{emoji}
 % \usepackage{ctex}
 
@@ -13,9 +14,11 @@
 \begin{document}
 \maketitle
 
-\section{End \emoji{rocket}}%
-\label{sec:emoji}
-
-\emoji{rocket}, Hello, Latex
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/end}
+	% \caption{img/end}
+	\label{fig:img-end}
+\end{figure}
 
 \end{document}

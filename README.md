@@ -27,9 +27,9 @@
 
 ## Showcases
 
-<!-- | <img src="img/00.png" align="bottom" width=256/> | <img src="img/03.png" align="bottom" width=256/> | <img src="img/02.png" align="bottom" width=256/> | -->
-<!-- | :----------------------------------------------: | :----------------------------------------------: | ------------------------------------------------ | -->
-<!-- | <img src="img/01.png" align="bottom" width=256/> | <img src="img/03.png" align="bottom" width=256/> | <img src="img/02.png" align="bottom" width=256/> | -->
+| <img src="img/t1.png" align="bottom" width=256/> | <img src="img/t2.png" align="bottom" width=256/> | <img src="img/t2.png" align="bottom" width=256/> |
+| :----------------------------------------------: | :----------------------------------------------: | ------------------------------------------------ |
+| <img src="img/t1.png" align="bottom" width=256/> | <img src="img/t1.png" align="bottom" width=256/> | <img src="img/t2.png" align="bottom" width=256/> |
 
 ## Struct
 
@@ -50,12 +50,6 @@
 5 directories, 5 files
 ```
 
-## Links
-
-...
-
-## Tutorials
-
 ## TODO
 
 - how to push generated man.pdf push repo dir, or use gh-pages actions?? related
@@ -64,5 +58,3 @@
 ## Preview
 
 - Click to preview [main.pdf](dist/main.pdf)
-
-## Videos
