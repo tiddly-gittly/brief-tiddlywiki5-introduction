@@ -2,36 +2,40 @@
 % README.tex
 \documentclass[UTF8, 12pt]{article}
 
-% enable cn
-% \usepackage{ctex}
-\usepackage{emoji}
-% use fix include no docmute env
-\usepackage{docmute}
-% img
-\usepackage{graphicx}
-% show label have soem bug
-\usepackage{showlabels}
+%------------------------
+% usepackage
+%------------------------
+\usepackage{emoji} % insert emoji
+\usepackage{docmute} % use fix include no docmute env
+\usepackage{graphicx} % insert image
 
+%------------------------
+% title
+%------------------------
 \title{Learn TiddlyWiki5 \emoji{rocket}}
 \author{oeyoews}
 \date{\emoji{calendar} 2022-08-12T12:08:34}
+
+
+%------------------------
+% settings
+%------------------------
 \setemojifont{TwemojiMozilla.ttf}[Path=./src/fonts/]
 \setcounter{tocdepth}{1}
 \graphicspath{{src/img/}}
 
+%------------------------
+% begin
+%------------------------
 \begin{document}
 
-% logo
-\include{src/logo}
-% cover
-\maketitle
-% toc
-\tableofcontents
+\include{src/logo} % logo
+\maketitle % cover
+\tableofcontents % toc
 
-% doc
-\include{src/abstract}
+\include{src/abstract} % doc
 
+%------------------------
 % end
-\include{src/end}
-
+%------------------------
 \end{document}
