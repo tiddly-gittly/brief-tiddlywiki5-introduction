@@ -30,7 +30,7 @@
 
 ## Showcases
 
-| <img src="img/t1.png" align="bottom" width=256/> | <img src="img/t2.png" align="bottom" width=256/> | <img src="img/t2.png" align="bottom" width=256/> |
+| <img src="img/t1.png" align="bottom" width=256/> | <img src="img/t2.png" align="bottom" width=256/> | <img src="img/t3.png" align="bottom" width=256/> |
 | :----------------------------------------------: | :----------------------------------------------: | ------------------------------------------------ |
 | <img src="img/t1.png" align="bottom" width=256/> | <img src="img/t1.png" align="bottom" width=256/> | <img src="img/t2.png" align="bottom" width=256/> |
 
