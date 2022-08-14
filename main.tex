@@ -5,17 +5,16 @@
 %------------------------
 % usepackage
 %------------------------
-\usepackage{emoji} % insert emoji
-\usepackage{docmute} % use fix include no docmute env
-\usepackage{graphicx} % insert image
+\usepackage{emoji, hyperref, docmute, graphicx} % insert emoji
 
 %------------------------
 % title
 %------------------------
-\title{\emoji{rocket} Learn TiddlyWiki5 }
+\title{\emoji{rocket} Learn TiddlyWiki5
+	\thanks{\url{https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction}}
+}
 \author{\emoji{pencil} oeyoews}
-\date{\emoji{calendar} 2022-08-12T12:08:34}
-
+\date{\emoji{calendar} UpdateTime \today}
 
 %------------------------
 % settings
@@ -23,6 +22,7 @@
 \setemojifont{TwemojiMozilla.ttf}[Path=./src/fonts/]
 \setcounter{tocdepth}{1}
 \graphicspath{{src/img/}}
+\hypersetup{colorlinks=true,} % modify link color with hyperref package
 
 %------------------------
 % begin
