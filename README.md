@@ -37,20 +37,13 @@
 ## Struct
 
 ```bash
-
-.
-├── _config.yml
-├── dist
-├── docs
-├── img
-├── main.tex
-├── makefile
-├── README.md
-├── renovate.json
-├── src
-└── test
-
-5 directories, 5 files
+📂brief-tiddlywiki5-introduction
+├── 📂docs
+├── 📂img
+├── 📝main.tex
+├── 📝makefile
+├── 📝README.md
+└── 📂src
 ```
 
 ## TODO
