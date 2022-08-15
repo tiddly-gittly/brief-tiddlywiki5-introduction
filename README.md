@@ -53,4 +53,4 @@
 
 ## Preview
 
-- Click to preview [learn-tiddlywiki5](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/blob/gh-pages/learn-tiddlywiki5.pdf)
+- Update nightly, Click to preview [🐱 learn-tiddlywiki5](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/blob/gh-pages/learn-tiddlywiki5.pdf)
