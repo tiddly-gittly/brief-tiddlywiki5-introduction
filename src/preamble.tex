@@ -2,6 +2,15 @@
 % usepackage
 %------------------------
 \usepackage{emoji, hyperref, docmute, graphicx, datetime} % insert emoji
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+
+\newcommand{\incfig}[2][1]{%
+      \def\svgwidth{#1\columnwidth}
+      \import{src/figures/}{#2.pdf_tex}
+}
 
 \newcommand{\inctex}[1]{
   \include{src/#1.tex}
