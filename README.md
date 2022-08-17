@@ -47,8 +47,8 @@
 
 ## TODO
 
-- how to push generated man.pdf push repo dir, or use gh-pages actions?? related
-  ci workflow
+- [ ] how to push generated man.pdf push repo dir, or use gh-pages actions?? related
+      ci workflow
 
 ## Preview
 
