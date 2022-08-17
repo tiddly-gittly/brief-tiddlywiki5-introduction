@@ -1,16 +1,15 @@
-<div align="center">
-
-<img src="https://img.shields.io/badge/Status-WIP-blueviolet.svg?style=flat-square&logo=Chakra-Ui&color=90E59A&logoColor=green" alt="status" >
-
-</div>
-
 <h1 align="center">Tiddlywiki Tutorials</h1>
 
 <div align="center">
 
+<img src="img/cat.svg" width=256 alt="cat"/>
 <img src="img/logo.png" width=128/>
 
 </div>
+
+<hr>
+
+<img src="https://img.shields.io/badge/Status-WIP-blueviolet.svg?style=flat-square&logo=Chakra-Ui&color=90E59A&logoColor=green" alt="status" >
 
 [![Build LaTeX document](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/updatepdf.yml/badge.svg)](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/updatepdf.yml)
 [![Github Pages](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/pages.yml/badge.svg)](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/pages.yml)
