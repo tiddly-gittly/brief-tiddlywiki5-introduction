@@ -45,6 +45,13 @@
 └── 📂src
 ```
 
+## Build
+
+```bash
+make update # generate pdf
+make view # show generated pdf
+```
+
 ## TODO
 
 - [ ] how to push generated man.pdf push repo dir, or use gh-pages actions?? related
