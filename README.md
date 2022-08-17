@@ -16,7 +16,7 @@
 
 ## What's that
 
-> 🎊 Tiddlywiki5 tutorials with latex
+> 🎊 Tiddlywiki5 tutorials with LaTeX
 
 ## Motivation
 
