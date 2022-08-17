@@ -9,7 +9,7 @@
 
 <hr>
 
-<img src="https://img.shields.io/badge/Status-WIP-blueviolet.svg?style=flat-square&logo=Chakra-Ui&color=90E59A&logoColor=green" alt="status" >
+<img src="https://img.shields.io/badge/Status-v0.0.1-blueviolet.svg?style=flat-square&logo=Chakra-Ui&color=90E59A&logoColor=green" alt="status" >
 
 [![Build LaTeX document](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/updatepdf.yml/badge.svg)](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/updatepdf.yml)
 [![Github Pages](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/pages.yml/badge.svg)](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/actions/workflows/pages.yml)
