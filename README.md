@@ -59,4 +59,6 @@ make view # show generated pdf
 
 ## Preview
 
-- Update nightly, Click to preview [🐱 learn-tiddlywiki5](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/blob/gh-pages/learn-tiddlywiki5.pdf)
+- Update nightly, click to preview.
+  - [📝 en](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/blob/gh-pages/learn-tiddlywiki5.pdf)
+  - [📖 cn](https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction/blob/gh-pages/learn-tiddlywiki5-cn.pdf)
