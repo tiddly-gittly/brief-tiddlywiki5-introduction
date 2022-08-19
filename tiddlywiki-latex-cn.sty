@@ -1,0 +1,42 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{}
+
+\RequirePackage{
+  ctex,
+  emoji,
+  hyperref,
+  docmute,
+  graphicx,
+  datetime,
+  import,
+  pdfpages,
+  xcolor,
+  transparent,
+}
+
+\newcommand{\incfig}[2][1]{%
+      \def\svgwidth{#1\columnwidth}
+      \import{src/figures/}{#2.pdf_tex}
+}
+
+\newcommand{\inctex}[1]{
+  \include{src/#1.tex}
+}
+
+%------------------------
+% settings
+%------------------------
+\setemojifont{TwemojiMozilla.ttf}[Path=./src/fonts/]
+\setcounter{tocdepth}{1}
+\graphicspath{{src/img/}}
+\hypersetup{colorlinks=true,} % modify link color with hyperref package
+
+%------------------------
+% title
+%------------------------
+\title{\emoji{rocket} Learn TiddlyWiki5
+\thanks{\url{https://github.com/tiddly-gittly/brief-tiddlywiki5-introduction}}
+\\ {\includegraphics[width=0.3\textwidth]{logo}}
+}
+\author{\emoji{pencil} oeyoews}
+\date{\emoji{calendar} 2022-08-14T18:00:59 \thanks{UpdatedTime: \today\ at \currenttime}}
