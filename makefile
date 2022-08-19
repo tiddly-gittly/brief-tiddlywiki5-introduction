@@ -25,7 +25,7 @@ ifeq ($(PDFLANGCN), "true")
 	-cp $(OUTPUTPDFFILECN) $(DISTDIR)
 	@echo "📖 Generated extra cn pdf"
 else
-	@echo "🔕 Didable cn pdf"
+	@echo "🔕 Didable generate cn pdf"
 endif
 	@echo "🚀 Generated en pdf"
 
