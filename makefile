@@ -14,7 +14,7 @@ update:
 	$(EXEC) $(ENGINE) $(TARGETTEXFILE)
 	-rm -rf dist && mkdir dist
 	-cp $(OUTPUTPDFFILE) dist/learn-tiddlywiki5.pdf
-update-cn:
+	# cn pdf
 	$(EXEC) $(ENGINE) $(TARGETTEXFILECN)
 	-cp $(OUTPUTPDFFILECN) dist/learn-tiddlywiki5-cn.pdf
 

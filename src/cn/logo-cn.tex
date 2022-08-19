@@ -1,0 +1,25 @@
+%!TEX program = lualatex
+% logo.tex
+\documentclass[UTF8]{article}
+
+\usepackage{emoji}
+\usepackage{graphicx}
+
+\graphicspath{{img/}}
+
+\title{Logo \emoji{rocket}}
+\author{oeyoews}
+\date{2022/08/12}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\setcounter{page}{1}
+
+\begin{figure}[b]
+	\centering
+	\includegraphics[width=0.3\textwidth]{logo}
+	\label{fig:img-logo-png}
+\end{figure}
+
+\end{document}

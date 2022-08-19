@@ -1,18 +1,11 @@
-\NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{}
-
-\RequirePackage{
-  ctex,
-  emoji,
-  hyperref,
-  docmute,
-  graphicx,
-  datetime,
-  import,
-  pdfpages,
-  xcolor,
-  transparent,
-}
+%------------------------
+% usepackage
+%------------------------
+\usepackage{emoji, hyperref, docmute, graphicx, datetime} % insert emoji
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
 
 \newcommand{\incfig}[2][1]{%
       \def\svgwidth{#1\columnwidth}
@@ -20,7 +13,7 @@
 }
 
 \newcommand{\inctex}[1]{
-  \include{src/cn/#1.tex}
+  \include{src/#1.tex}
 }
 
 %------------------------
