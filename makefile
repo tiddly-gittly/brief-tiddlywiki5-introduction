@@ -1,27 +1,42 @@
-SRC = main
-OUTPUTDIR = public
+# compile
 VIEWER = zathura
 ENGINE = -lualatex
 EXEC = latexmk
-TARGETTEXFILE = $(SRC).tex
-OUTPUTPDFFILE = $(OUTPUTDIR)/$(SRC).pdf
-# patch cn
+# files
+SRC = main
 SRCCN = main-cn
+OUTPUTDIR = public
+DISTDIR = dist
+# ref
+TARGETTEXFILE = $(SRC).tex
 TARGETTEXFILECN = $(SRCCN).tex
+OUTPUTPDFFILE = $(OUTPUTDIR)/$(SRC).pdf
 OUTPUTPDFFILECN = $(OUTPUTDIR)/$(SRCCN).pdf
+# if want enable en and cn pdf, please comment this below line
+# PDFLANGCN="true"
 
 update:
+	-rm -rf $(DISTDIR) && mkdir $(DISTDIR)
+	# en
 	$(EXEC) $(ENGINE) $(TARGETTEXFILE)
-	-rm -rf dist && mkdir dist
-	-cp $(OUTPUTPDFFILE) dist/learn-tiddlywiki5.pdf
-	# cn pdf
+	-cp $(OUTPUTPDFFILE) $(DISTDIR)
+ifeq ($(PDFLANGCN), "true")
 	$(EXEC) $(ENGINE) $(TARGETTEXFILECN)
-	-cp $(OUTPUTPDFFILECN) dist/learn-tiddlywiki5-cn.pdf
+	-cp $(OUTPUTPDFFILECN) $(DISTDIR)
+	@echo "📖 Generated extra cn pdf"
+else
+	@echo "🔕 Didable cn pdf"
+endif
+	@echo "🚀 Generated en pdf"
 
 view:
 	$(VIEWER) $(OUTPUTPDFFILE)
 view-cn:
+ifeq ($(PDFLANGCN), "true")
 	$(VIEWER) $(OUTPUTPDFFILECN)
+else
+	@echo "🔔 The cn pdf not updated"
+endif
 
 .PHONY: clean
 clean:
