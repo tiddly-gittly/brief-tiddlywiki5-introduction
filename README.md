@@ -2,7 +2,8 @@
 
 <div align="center">
 
-<img src="img/cat.svg" width=256 alt="cat"/>
+<img src="img/cat-rainbow.png" width=128 alt="cat"/>
+<hr>
 <img src="img/logo.png" width=128/>
 
 </div>
