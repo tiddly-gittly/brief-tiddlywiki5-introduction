@@ -2,7 +2,9 @@
 
 <div align="center">
 
-<img src="img/g510.png" width=128 alt="cat"/>
+<img src="img/white-vanilla.svg" height=256/>
+<hr>
+<img src="img/g510.png" height=128 alt="cat"/>
 
 <hr>
 <img src="img/logo.png" width=128/>
